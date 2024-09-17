@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      
-      <div>Aditya : hello</div>
+      <div>Aditya Raj: hello</div>
       <div>Shivam: hello</div>
     </>
   )
