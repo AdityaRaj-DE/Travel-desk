@@ -8,6 +8,7 @@ function App() {
     <>
     <div className='text'>
       <div>Aditya Raj: hello</div>
+      <div>Shreya : hi</div>
       <div>Shivam: hello</div>
       <div>Shashi kant: hello</div>
       <div>Shashi kant: Testing...</div>
