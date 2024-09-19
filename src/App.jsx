@@ -8,11 +8,11 @@ function App() {
     <>
       <div className="text">
         <div>Aditya : hello</div>
-        <div>Abhay : hi</div>
-        <div>Apeksha : hello</div>
-        <div>Shivam : hello</div>
-        <div>Shreya : hi</div>
-        <div>Shivam : hello</div>
+        <div>Abhay : hi......</div>
+        <div>Apeksha : hello....</div>
+        <div>Shivam : hello..</div>
+        <div>Shreya : hi.......</div>
+        <div>Vaibhav : hello...</div>
       </div>
     </>
   )
