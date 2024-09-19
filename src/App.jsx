@@ -6,9 +6,14 @@ function App() {
 
   return (
     <>
-      <div>Aditya : hello</div>
-    <div>Apeksha</div>
-    ___
+      <div className="text">
+        <div>Aditya : hello</div>
+        <div>Abhay : hi</div>
+        <div>Apeksha : hello</div>
+        <div>Shivam : hello</div>
+        <div>Shreya : hi</div>
+        <div>Shivam : hello</div>
+      </div>
     </>
   )
 }
