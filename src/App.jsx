@@ -1,19 +1,14 @@
 
-import './App.css'
+import Navbar from './components/Navbar'
+import Routing from './utils/Routing'
 
 function App() {
   
 
   return (
     <>
-      <div className="text">
-        <div>Aditya : hello</div>
-        <div>Abhay : hi......</div>
-        <div>Apeksha : hello....</div>
-        <div>Shivam : hello..</div>
-        <div>Shreya : hi.......</div>
-        <div>Vaibhav : hello...</div>
-      </div>
+    <Navbar/>
+    <Routing/>
     </>
   )
 }
