@@ -6,8 +6,8 @@ import { NavLink, Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <navbar className="shadow sticky z-50 top-0">
-      <nav className="bg-green-300 border-gray-200 px-4 lg:px-6 py-2.5">
+    <navbar className=" sticky z-50 top-2 flex justify-center ">
+      <nav className="w-5/6 drop-shadow-xl bg-white rounded-lg bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-70 border-gray-200 px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img src="../public/logo.png" className="mr-3 h-12" alt="Logo" />
@@ -21,7 +21,7 @@ export default function Navbar() {
             </Link>
             <Link
               to="#"
-              className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+              className="text-white bg-emerald-600 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             >
               Contribute
             </Link>
@@ -37,8 +37,8 @@ export default function Navbar() {
                   to="/"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? "text-orange-700" : "text-grey-700"
-                    }border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                      isActive ? "text-emerald-600" : "text-grey-700"
+                    }border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-emerald-600 lg:p-0`
                   }
                 >
                   TravelDesk
@@ -50,8 +50,8 @@ export default function Navbar() {
                   to="/about"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? "text-orange-700" : "text-grey-700"
-                    }border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                      isActive ? "text-emerald-600" : "text-grey-700"
+                    }border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-emerald-600 lg:p-0`
                   }
                 >
                   About
@@ -63,8 +63,8 @@ export default function Navbar() {
                   to="/redeem"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 ${
-                      isActive ? "text-orange-700" : "text-grey-700"
-                    }border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                      isActive ? "text-emerald-600" : "text-grey-700"
+                    }border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-emerald-600 lg:p-0`
                   }
                 >
                   Redeem
@@ -78,18 +78,18 @@ export default function Navbar() {
             <form
               action="/search"
               method="get"
-              class="flex items-center bg-white rounded-full shadow-md"
+              class="flex items-center bg-white rounded-lg bg-opacity-70"
             >
               <input
                 type="text"
                 name="query"
                 placeholder="Search..."
-                class="w-full py-2 px-4 text-gray-700 rounded-full focus:outline-none"
+                class="w-full py-2 px-4 bg-white rounded-lg bg-opacity-0 focus:outline-none"
               />
               <button type="submit" class="px-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 text-gray-500"
+                  class="h-6 w-6 text-emerald-500"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
