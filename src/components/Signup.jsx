@@ -40,22 +40,22 @@ const Signup = () => {
             <div className="my-2">
               <p>Create Passward</p>
               <div className="flex">
-              <div className="py-2 mx-4 flex justify-center">
-                <input
-                  className="py-2 px-4 bg-zinc-100 rounded-lg bg-opacity-100 focus:outline-none"
-                  type="password"
-                  required
-                  placeholder="Enter Password"
-                />
-              </div>
-              <div className="py-2  mx-4 flex justify-center">
-                <input
-                  className="py-2 px-4 bg-zinc-100 rounded-lg bg-opacity-100 focus:outline-none"
-                  type="password"
-                  required
-                  placeholder="Re-enter Password"
-                />
-              </div>
+                <div className="py-2 mx-4 flex justify-center">
+                  <input
+                    className="py-2 px-4 bg-zinc-100 rounded-lg bg-opacity-100 focus:outline-none"
+                    type="password"
+                    required
+                    placeholder="Enter Password"
+                  />
+                </div>
+                <div className="py-2  mx-4 flex justify-center">
+                  <input
+                    className="py-2 px-4 bg-zinc-100 rounded-lg bg-opacity-100 focus:outline-none"
+                    type="password"
+                    required
+                    placeholder="Re-enter Password"
+                  />
+                </div>
               </div>
             </div>
             <div className="my-2">
