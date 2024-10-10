@@ -5,6 +5,8 @@ import {Route, Routes} from "react-router-dom"
 import Redeem from '../components/Redeem'
 import Login from '../components/Login'
 import Signup from '../components/Signup'
+import Place from '../components/Place'
+import Places from '../components/Places'
 
 const Routing = () => {
   return (
@@ -15,6 +17,8 @@ const Routing = () => {
         <Route path="/redeem" element={<Redeem/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
+        <Route path="/:places" element={<Places/>}/>
+        <Route path="/:place" element={<Place/>}/>
       </Routes>
     </div>
   )
